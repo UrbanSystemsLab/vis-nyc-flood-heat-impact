@@ -1,0 +1,69 @@
+extends includes/layout.pug
+
+block content
+	.row#content.blue-grey-text.text-lighten-5
+		.col.l2#sideOptions.blue-grey.darken-4
+			h5.center-align NYC Risk Assesment
+			p.info The Urban Systems Lab is creating new cutting edge 3D visualizations combining multiple sources of social, ecological, and technical infrastructure data for the first time at parcel scale resolution to examine equity in risk and vulnerability to climate driven extreme events such as coastal flooding and heat waves. Here you can see an example of this 3D vizualization approach.
+
+			#interface
+			p Buildings Attribute
+			p
+				input#attr-none(name='data-attrs', type='radio', value='none' checked)
+				label(for='attr-none') Grayscale
+				#legend-none.legend.card-panel.blue-grey.darken-4
+					h5 Grayscale
+					span.white-text
+						| I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+			p
+				input#attr-flood(name='data-attrs', type='radio', value='flood')
+				label(for='attr-flood') Coastal Flooding
+				#legend-flood.legend.card-panel.blue-grey.darken-4
+					h5 Coastal Flooding
+					span.white-text
+						| I am a very simple card. I am good at containing small bits of information.
+						| I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+			p
+				input#attr-heat(name='data-attrs', type='radio', value='heat')
+				label(for='attr-heat') Heat Risk
+				#legend-heat.legend.card-panel.blue-grey.darken-4
+					h5 Heat Risk
+					span.white-text
+						| I am a very simple card. I am good at containing small bits of information.
+						| I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+			p
+				input#attr-ethnicity(name='data-attrs', type='radio', value='ethnicity')
+				label(for='attr-ethnicity') Ethnicity
+				#legend-ethnicity.legend.card-panel.blue-grey.darken-4
+					h5 Ethnicity
+					span.white-text
+						| I am a very simple card. I am good at containing small bits of information.
+						| I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+				
+			p
+				input#attr-age(name='data-attrs', type='radio', value='age')
+				label(for='attr-age') Elderly Population
+				#legend-age.legend.card-panel.blue-grey.darken-4
+					h5 Elderly Population
+					span.white-text
+						| I am a very simple card. I am good at containing small bits of information.
+						| I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+				
+			p
+				input#attr-income(name='data-attrs', type='radio', value='income')
+				label(for='attr-income') Median Income
+				#legend-income.legend.card-panel.blue-grey.darken-4
+					h5 Median Income
+					span.white-text
+						| I am a very simple card. I am good at containing small bits of information.
+						| I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+				
+
+		#map.col.l12
+		
+	script(src="/js/jquery.min.js")
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.9.1/d3.min.js")
+	script(src="http://d3js.org/d3.v2.js")
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.min.js")
+	script(src="/js/materialize.min.js")
+	script(src="/js/script.js")
