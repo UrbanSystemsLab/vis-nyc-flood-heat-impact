@@ -7,5 +7,5 @@ deploy:
   bucket: "elasticbeanstalk-us-west-2-893554244568"
   skip_cleanup: true
   region: "us-west-2"
-  upload-dir: projects
+  upload-dir: projects/nyc-flood-heat-impacts
   acl: public_read
