@@ -4,7 +4,7 @@ deploy:
   access_key_id: AKIAIHA424WLJR5RGMYQ
   secret_access_key:
     secure: "kOavsD7tksULpmLuS1p4+/k3ZShi4dNMl06QZKheR3SWDmQo0HsW/987RKKrx86aJBHZ3nYMno6wZCXz+3N1aPbtDuOFZhIa1X01dYp7JQKblNN3P9Dn0pf6FYM2f0D4q2BQmoXE+f7oG6T8iNos8/FocbfNS4zYHJ0D2LAfFsfvM49FKNYTlOLn4xtqX4P4nVwguLjRmkgViOmRWz0k5MN4pFMKGjRESiEsxkrWtWWE3YrEku19NK5rmLoqyRo8c37/EzC9YiyDtm68klxfQFXV7btLGwyKsKWP+qRikY6ZCf1H148sCTvGC5zlDxSpAjl7i/n035vktdxsWfwHUntADH9b6rFeTR+pMlpxI2s+fosL/0CUST0mVmHzhYB6QbAJkFzRPN3f4oARgRbJesnN7EwVmsHvkHBJc1yZPupmAOnHceYE3V22pNQMTiGKdKCPrm8wdKljwpuuS0DjrR4CUZYpnSBo0vlkeRUONuYO98falNbrfcUGwf76F8tgh/LR9BamqH3K1C3DHamL+iK5rZRGgMZQWSThoxwxJLwKV6kOIPopCvLco6wjmnJBMhRJBupKFu3oSDJDxC54lC5LdpebwCYhZU/BSdUvB4QNP3TJIAwVrpRwdOLWdf6xriwMIsldgIC9eM1B7VYVsnnqn51XtkfHFxetsxvUOug="
-  bucket: "elasticbeanstalk-us-west-2-893554244568"
+  bucket: "usl-static-pages"
   skip_cleanup: true
   region: "us-west-2"
   upload-dir: projects/nyc-flood-heat-impacts
